@@ -5,7 +5,9 @@ A modular footprinting and AI-assisted analysis toolkit designed for advanced us
 This tool provides passive reconnaissance capabilities, footprint mapping, and AI-powered insight generation.
 Intended strictly for educational, research, and authorized security testing purposes.
 
-
+# Clone the repository
+git clone https://github.com/FJ-cyberzila/UserAnalyzer.git  
+cd UserAnalyzer
 ---
 
 ✨ Features
@@ -28,9 +30,7 @@ Intended strictly for educational, research, and authorized security testing pur
 pkg update && pkg upgrade
 pkg install git python clang make -y  
 
-# Clone the repository
-git clone https://github.com/<FJ-cyberzila>/<UserAnalyzer>.git  
-cd <AdvanceUserAnalyzer>  
+
 
 ---
 
