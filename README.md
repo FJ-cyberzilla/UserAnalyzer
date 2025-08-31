@@ -1,63 +1,62 @@
-# AdvanceUserAnalyzer
 Advanced User Analyzer
 
-A modular footprinting and AI-assisted analysis toolkit designed for advanced users.
-This tool provides passive reconnaissance capabilities, footprint mapping, and AI-powered insight generation.
-Intended strictly for educational, research, and authorized security testing purposes.
+Advanced User Analyzer is a high-performance C++ toolkit designed for footprinting with AI-assisted analysis.
 
-# Clone the repository
-git clone https://github.com/FJ-cyberzila/UserAnalyzer.git  
-cd UserAnalyzer
+The primary focus of this project is passive reconnaissance—collecting publicly available information without engaging in intrusive or active exploitation.
+
 ---
 
 ✨ Features
 
-🔍 Footprinting – Collect domain, IP, and infrastructure information.[local]
+Footprinting social media 
 
-🤖 AI Analysis – Contextual insights and pattern detection.
+AI-Assisted Analysis – Provide deeper insights into collected data.
 
-📦 Modular Design – Extend with plugins or custom analyzers.
-
-📱 Termux Compatibility – Fully usable in Termux environment.
-
-📧 Email Output – Results can be exported and sent securely.
+Termux Compatibility – Fully functional in Termux environment.
 
 ---
 
-⚙️ Installation & Compilation (Termux)
+⚙️ Installation & Compilation
 
-# Update & install dependencies
+Prerequisites (Termux / Linux)
+
+Ensure the following packages are installed:
+
 pkg update && pkg upgrade
-pkg install git python clang make -y  
+pkg install git clang cmake make -y
 
+Clone the Repository
+
+git clone https://github.com/FJ-cyberzila/UserAnalyzer.git  
+cd UserAnalyzer
+
+Build
+
+mkdir build && cd build  
+cmake ..  
+make
+
+The compiled binary will be available in:
+
+./build/bin/UserAnalyzer
 
 
 ---
 
-⚠️ Responsibility & Ethics
+⚠️ Legal & Ethical Responsibility
 
-This project is intended for:
+This project has been developed exclusively for educational and authorized security research purposes.
 
-✅ Security researchers
+Use is strictly limited to passive reconnaissance.
 
-✅ Students & educators
+Unauthorized use against systems, networks, or individuals without explicit permission is strictly prohibited.
 
-✅ Penetration testers with explicit authorization
-
-
-Do NOT misuse.
-
-❌ No exploitation or illegal reconnaissance
-
-❌ No active attacks or active useage.
-
-❌ No violation of privacy laws
+Users are fully responsible for ensuring compliance with local laws, regulations, and organizational policies.
 
 
-> The developer/owner is not responsible for misuse or damage caused by unauthorized activities.
-Always comply with local laws and organizational policies.
-> Test with your own or sample email addresses.
-> For more information  please contact me king.aka.tyrant@hotmail.com
-> SUMMER MMXXVI , F.J™ CYBERTRONIC© SYSTEMS®
+The authors and contributors disclaim all liability for misuse or unlawful application of this software.
 
 
+SUMMER - MMXXVI
+F.J™ CYBERTRONIC© SYSTEMS®
+---
