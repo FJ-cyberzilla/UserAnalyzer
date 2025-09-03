@@ -1,6 +1,9 @@
-Advanced User Analyzer
+# Advanced User Analyzer
+# Passive reconnaissance
+# Collecting public
+# High-performance C++ toolkit 
 
-Advanced User Analyzer is a high-performance C++ toolkit designed for footprinting with AI-assisted analysis.
+Advanced User Analyzer is a designed for footprinting with AI-assisted analysis.
 
 The primary focus of this project is passive reconnaissance—collecting publicly available information without engaging in intrusive or active exploitation.
 
@@ -60,3 +63,5 @@ The authors and contributors disclaim all liability for misuse or unlawful appli
 SUMMER - MMXXVI
 F.J™ CYBERTRONIC© SYSTEMS®
 ---
+
+"All warfare is based on deception."
